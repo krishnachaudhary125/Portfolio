@@ -1,12 +1,12 @@
 :root {
-    --bg: #0a0a0a;
-    --surface: #111111;
-    --surface2: #1a1a1a;
-    --accent: #c8f562;
-    --accent2: #56cfb2;
-    --text: #f0f0f0;
-    --muted: #666;
-    --border: #222;
+    --bg: #F8FAFC;
+    --surface: #FFFFFF;
+    --surface2: #F1F5F9;
+    --accent: #2563EB;
+    --accent2: #3B82F6;
+    --text: #0F172A;
+    --muted: #475569;
+    --border: #E2E8F0;
 }
 
 * {
@@ -54,7 +54,7 @@ nav {
 }
 
 nav.scrolled {
-    background: rgba(10, 10, 10, 0.95);
+    background: rgba(248, 250, 252, 0.9);
     border-color: var(--border);
     backdrop-filter: blur(10px);
 }
@@ -133,8 +133,7 @@ nav.scrolled {
 .hero-grid {
     position: absolute;
     inset: 0;
-    background-image: linear-gradient(rgba(200, 245, 98, 0.03) 1px, transparent 1px), linear-gradient(90deg, rgba(200, 245, 98, 0.03) 1px, transparent 1px);
-    background-size: 60px 60px;
+    background-image: linear-gradient(rgba(37, 99, 235, 0.05) 1px, transparent 1px), linear-gradient(90deg, rgba(37, 99, 235, 0.05) 1px, transparent 1px);
 }
 
 .hero-content {
@@ -218,7 +217,8 @@ nav.scrolled {
 .hero h1 .line2 {
     display: block;
     color: transparent;
-    -webkit-text-stroke: 1px var(--accent);
+    color: var(--accent);
+    -webkit-text-stroke: 0;
 }
 
 .hero-bio {
@@ -253,6 +253,7 @@ nav.scrolled {
     border: none;
     transition: all 0.2s;
     display: inline-block;
+    border-radius: 12px;
 }
 
 .btn-primary:hover {
@@ -375,6 +376,8 @@ section {
     background: var(--surface);
     padding: 28px 24px;
     transition: background 0.2s;
+    box-shadow: 0 4px 20px rgba(15, 23, 42, 0.04);
+    border-radius: 16px;
 }
 
 .skill-card:hover {
@@ -403,6 +406,7 @@ section {
     color: var(--text);
     border-radius: 2px;
     transition: all 0.2s;
+    border-radius: 16px;
 }
 
 .skill-tag:hover {
@@ -432,6 +436,8 @@ section {
     transition: background 0.3s;
     display: flex;
     flex-direction: column;
+    box-shadow: 0 4px 20px rgba(15, 23, 42, 0.04);
+    border-radius: 16px;
 }
 
 .project-card::before {
@@ -502,6 +508,7 @@ section {
     padding: 3px 8px;
     border-radius: 2px;
     border: 1px solid rgba(86, 207, 178, 0.2);
+    border-radius: 16px;
 }
 
 .project-link {
@@ -633,6 +640,8 @@ section {
     border: 1px solid var(--border);
     transition: all 0.2s;
     font-size: 13px;
+    box-shadow: 0 4px 20px rgba(15, 23, 42, 0.04);
+    border-radius: 16px;
 }
 
 .contact-link:hover {
