@@ -207,11 +207,11 @@ nav.scrolled {
 }
 
 .hero h1 {
-    font-family: 'Syne', sans-serif;
+    font-family: 'Inter', sans-serif;
     font-weight: 800;
-    font-size: clamp(32px, 10vw, 72px);
-    line-height: 0.95;
-    letter-spacing: -3px;
+    font-size: clamp(48px, 8vw, 88px);
+    line-height: 1;
+    letter-spacing: -4px;
     margin-bottom: 24px;
 }
 
