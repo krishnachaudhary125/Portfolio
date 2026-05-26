@@ -222,9 +222,9 @@ nav.scrolled {
 
 .hero h1 .line2 {
     display: block;
-    color: transparent;
-    color: var(--accent);
-    -webkit-text-stroke: 0;
+    background: linear-gradient(90deg, #2563EB, #60A5FA);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 .hero-bio {
