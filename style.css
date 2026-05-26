@@ -22,9 +22,10 @@ html {
 body {
     background: var(--bg);
     color: var(--text);
-    font-family: 'DM Mono', monospace;
-    font-size: 14px;
+    font-family: 'Inter', sans-serif;
+    font-size: 15px;
     line-height: 1.7;
+    overflow-x: hidden;
 }
 
 ::-webkit-scrollbar {
@@ -326,9 +327,9 @@ nav.scrolled {
 }
 
 section {
-    padding: 100px 60px;
-    max-width: 1500px;
-    margin: auto
+    padding: 120px 80px;
+    max-width: 1280px;
+    margin: auto;
 }
 
 .section-label {
